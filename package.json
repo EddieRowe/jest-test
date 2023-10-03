@@ -4,5 +4,9 @@
   },
   "scripts": {
     "test": "jest index.test.js"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": ["./src/**"]
   }
 }
